@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="cssmonocle.css" />
+        <title>LeMonocle</title>
+        <link rel="icon" type="image" href="monolol.png" />
+    </head>
+
+    <body>
+    	<header>
+    	<br>
+   			<a href="lemonocle.html"> <img src="monocle-pns.png" class="monoclelogo" alt="LeMonocle"/> </a>
+   			 <nav>
+                    <ul>
+                        <li><a class="connexion" href="#">Se connecter</a></li>
+                        <li><a class="inscription" href="#">S'inscrire</a></li>
+                    </ul>
+                </nav>
+		</header>
+    		<div id="imagetexte">
+    		<br>
+    			<div id="texte">
+    				<p class="titre"> D é c o u v r e</p>
+    				<p class="sous-titre"> des films, des musiques, des vidéos de tout genres </p>
+    				<p class="machin"> Je veux découvrir</p>
+    						<span id="blocliste" class="liste liste--white">
+   							 <select id="jeveuxmettreunhoverla" class="liste__select liste__select--white" 
+ name="nimporte" onChange="location.href=''+this.options[this.selectedIndex].value+'.html';">
+        						<option value="#">un film</option>
+        						<option value="#">une musique</option>
+       							<option value="#">une vidéo</option>
+    						</select>
+							</span>
+    			</div>
+    		</div>
+    </body>
+</html>
